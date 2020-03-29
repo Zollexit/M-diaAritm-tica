@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class MédiaAritmética
+{
+   public static void main(String Args[])
+   {
+       float x,y,z,k,aux;
+       System.out.println("Insira sua primeira nota: ");
+       Scanner a = new Scanner(System.in);
+       x = a.nextFloat();
+       System.out.println("Insira sua segunda nota: ");
+       Scanner b = new Scanner(System.in);
+       y = b.nextFloat();
+       System.out.println("Insira sua terceira nota: ");
+       Scanner c = new Scanner(System.in);
+       z = c.nextFloat();
+       System.out.println("Insira sua quarta nota: ");
+       Scanner d = new Scanner(System.in);
+       k = d.nextFloat();
+       aux = (x+y+z+k)/4;
+       System.out.println("Sua média aritmética é: ");
+       System.out.println(aux);
+   }
+}
